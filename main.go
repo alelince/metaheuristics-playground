@@ -8,10 +8,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/rs/zerolog/log"
-
 	app "github.com/alelince/metaheuristics-playground/internal/app"
 	utils "github.com/alelince/metaheuristics-playground/internal/utils"
+	"github.com/rs/zerolog/log"
 )
 
 func main() {
